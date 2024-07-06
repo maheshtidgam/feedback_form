@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Feedback</title>
+
+</head>
+<body>
+    <h1 style="text-align: center;"> <b>Feedback Form</b></h1>
+    <div> 
+        <form action="" method="" style="margin: 0 auto; width: 300px;">
+        <!-- form elements here -->
+        <label> <b>Feedback Type:</b></label>
+        <br>
+        <select name="" id=""  style="width: 100%;">
+            <option value="">complement</option>
+            <option value="">complaint</option>
+            <option value="">suggestion</option>
+            <option value="">other</option>
+        </select>
+        <br>
+        <br>
+        <div><label for=""><b>Message:</b></label>
+            <br>
+            <textarea name="" id="" rows="4" style="width: 100%;"></textarea>
+        </div>
+        <div>
+            <label for=""><b>Website Rating:</b></label>
+            <br>
+                <input type="radio" id="Excellent" name="drone" value="Excellent" checked />
+                <label for="Excellent">Excellent</label>
+             
+            
+        
+                <input type="radio" id="Good" name="drone" value="Good" />
+                <label for="Good">Good</label>
+             
+                <input type="radio" id="Average" name="drone" value="Average" />
+                <label for="Average">Average</label>
+
+                <input type="radio" id="Poor" name="drone" value="Poor" />
+                <label for="Poor">Poor</label>
+              
+        </div>
+
+        <div>
+            <label for="age"  min><b>Age (10-100):</b></label>
+            <br>
+            <input type="number" style="width: 100%;">
+        </div>
+        <div>
+            <label for="email"><b>Email</b><span style="color: red;">*</span></label>
+            <br>
+            <input type="email" required style="width: 100%;">
+        </div>
+        <div>
+            <label for="password"><b>Password (min. 8 characters)</b></label>
+            <input type="password" style="width: 100%;" minlength="5">
+        </div>
+
+        <div>
+            <label for="website"><b>Website (Optional):</b></label>
+            <br>
+            <input type="url" style="width: 100%;">
+        </div>
+        <div>
+            <br>
+            <input type="checkbox">
+            <label for=""><b>I agree to the terms and conditions</b></label>
+        </div>
+        
+        <div style="text-align: center;">
+            <button type="submit" class="submit-button">Submit</button>
+        </div>
+
+
+    </form>
+</div>
+   
+    
+</body>
+</html>
